@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if any tooling is added later)
+node_modules/
+npm-debug.log*
+
+# Python tooling (used temporarily during development)
+__pycache__/
+*.py[cod]
+
+# Build output (if a build step is added later)
+dist/
+build/
