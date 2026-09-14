@@ -11,7 +11,7 @@ const revealObserver = new IntersectionObserver(
   { threshold: 0.12 }
 );
 
-document.querySelectorAll('.feature-card, .download-card, .privacy-text, .opensource-text, .opensource-graphic').forEach((el) => {
+document.querySelectorAll('.feature-card, .download-badges, .privacy-text, .opensource-text, .opensource-graphic').forEach((el) => {
   el.classList.add('reveal');
   revealObserver.observe(el);
 });
